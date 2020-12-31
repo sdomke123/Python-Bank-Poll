@@ -20,10 +20,11 @@ with open(csvpath) as csvfile:
     #Skip header
     csv_header = next(csvreader)
 
-    # Append to lists accordingly
+    # Append candidates to list
     for row in csvreader:
         candidate.append(row[2])
 
+        # Loop through candidate row and increment their individual vote totals
         if row[2] == 'Khan':
             khanvotes += 1
         if row[2] == 'Correy':
@@ -33,18 +34,23 @@ with open(csvpath) as csvfile:
         if row[2] == "O'Tooley":
             otooleyvotes += 1
 
+    # Append individual total candidate votes to a new list
     candidatevotes.append(khanvotes)
     candidatevotes.append(correyvotes)
     candidatevotes.append(livotes)
     candidatevotes.append(otooleyvotes)
 
+    # Winner is the highest amount out of this list
     winner = str(candidate[candidatevotes.index(max(candidatevotes))])
+
+    #Set more variables with proper formatting
     totalvotes = len(candidate)
     khanpercent = ('${:.3f}'.format(round(((khanvotes/totalvotes)*100), 3)))
     correypercent = ('${:.3f}'.format(round(((correyvotes/totalvotes)*100), 3)))
     lipercent = ('${:.3f}'.format(round(((livotes/totalvotes)*100), 3)))
     otooleypercent = ('${:.3f}'.format(round(((otooleyvotes/totalvotes)*100), 3)))
 
+    # Print results
     print(f'Election Results')
     print(f'---------------------------')
     print(f'Total Votes: {totalvotes}')
