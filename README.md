@@ -1,6 +1,6 @@
 # PyBank
 
-* A python script was created to analyze financial data in budget_data.csv. The following was analyzed and displayed:
+* A python script was created to analyze financial data in [budget_data.csv](PyBank/Resources/budget_data.csv). The following was analyzed and displayed:
 
   * The total number of months in the dataset
   
@@ -14,7 +14,7 @@
 
 # PyPoll
 
-* A python script was created to analyze poll data in election_data.csv. The following was analyzed and displayed:
+* A python script was created to analyze poll data in [election_data.csv](PyPoll/Resources/election_data.csv). The following was analyzed and displayed:
 
   * The total number of votes cast
   
