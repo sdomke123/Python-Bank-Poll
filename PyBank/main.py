@@ -38,8 +38,8 @@ with open(csvpath) as csvfile:
     totalmonths = len(months)
     average = round(sum(changes)/len(changes), 2)
     maximum = max(changes)
-    maxdate = str(months[changes.index(max(changes))])
-    mindate = str(months[changes.index(min(changes))])
+    maxdate = str(months[(changes.index(max(changes)) + 1)])
+    mindate = str(months[(changes.index(min(changes)) + 1)])
     minimum = min(changes)
 
     # Print results
