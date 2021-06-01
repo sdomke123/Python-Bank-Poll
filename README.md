@@ -16,6 +16,8 @@ A python script was created to analyze financial data in [budget_data.csv](PyBan
   
 * The greatest decrease in losses (date and amount) over the entire period
 
+![bankresults](Images/bankresults.png]
+
 ### PyPoll
 
 A python script was created to analyze poll data in [election_data.csv](PyPoll/Resources/election_data.csv). The following was analyzed and displayed:
@@ -29,6 +31,8 @@ A python script was created to analyze poll data in [election_data.csv](PyPoll/R
 * The total number of votes each candidate won
   
 * The winner of the election based on popular vote
+
+![pollresults](Images/pollresults.png)
 
 ## Data
 
