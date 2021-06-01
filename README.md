@@ -32,11 +32,11 @@ A python script was created to analyze poll data in [election_data.csv](PyPoll/R
 
 ## Data
 
+One data set per section was used, budget data was near 100 rows and election data was just over 1,000,000 rows. 
+
 ## Tools and Languages
 
 * Python
-
-
 
 
 
