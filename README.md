@@ -16,7 +16,7 @@ A python script was created to analyze financial data in [budget_data.csv](PyBan
   
 * The greatest decrease in losses (date and amount) over the entire period
 
-![bankresults](Images/bankresults.png]
+![bankresults](Images/bankresults.png)
 
 ### PyPoll
 
